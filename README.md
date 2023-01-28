@@ -1,5 +1,7 @@
 # CAMAGRU
 
+> It is version 4, updated on Sep 22, 2022.
+
 ## How To Install
 
 1. .env.template 를 보고 .env 파일 만들기
