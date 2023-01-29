@@ -11,6 +11,13 @@
 $ docker-compose up --build
 ```
 
+## Progress
+
+#### 230129
+
+- Docker-compose 이용하여 Nginx + PHP + MySQL 컨테이너 만들기
+- Nginx에 https 적용하기
+
 ## References
 
 #### 230129
