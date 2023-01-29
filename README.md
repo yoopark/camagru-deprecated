@@ -5,6 +5,7 @@
 ## How To Install
 
 1. .env.template 를 보고 .env 파일 만들기
+2. generate_ssl_files.sh 실행하여 https 인증에 필요한 임시 인증서 발급받기
 
 ```shell
 $ docker-compose up --build
