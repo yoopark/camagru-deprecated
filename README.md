@@ -38,9 +38,10 @@ $ npx tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/tailwind-output.c
 
 - PHP로는 Backend 로직만 짜는게 맞지 않나? 뷰는 따로 떼어 놓는게 맞지.
   - HTML에서 HTML Import 해서 layout 만들기 -> 한계가 너무 많고, 일단 베스트 프랙티스가 아님
-  - PHP를 사용하는 한, 뷰까지 PHP에서 짜는게 맞음.
+  - PHP를 사용하는 한, 뷰까지 PHP에서 짜는게 맞음. PHP는 언어의 탄생부터가 프론트와 백이 디커플링되어있지 않음.
 - tailwindcss 비슷한 utility css 파일을 일일이 만들바에야 tailwindcss를 그냥 쓰면 되지.
 
 #### References
 
 - [tailwindcss Installation](https://tailwindcss.com/docs/installation)
+- [백엔드와 프론트엔드를 나눠서 개발하는 방식에 대해 문의 드립니다.](https://www.clien.net/service/board/cm_app/17563519)
