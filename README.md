@@ -45,3 +45,9 @@ $ npx tailwindcss -i ./src/styles/global.css -o ./src/styles/tailwind.css --watc
 
 - [tailwindcss Installation](https://tailwindcss.com/docs/installation)
 - [백엔드와 프론트엔드를 나눠서 개발하는 방식에 대해 문의 드립니다.](https://www.clien.net/service/board/cm_app/17563519)
+
+### 230131
+
+#### References
+
+- [Sticky Footer](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/)
