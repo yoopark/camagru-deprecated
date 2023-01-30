@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../public/favicon.ico" />
+    <title>Camera | Camagru</title>
+    <link href="../styles/tailwind.css" rel="stylesheet" />
+    <script defer src="camera.js"></script>
+  </head>
+  <body class="flex flex-col min-h-full">
+    <header class="h-32 px-80 flex justify-around items-center space-x-10 bg-white">
+      <a href="/" class="flex-auto"><h2 class="text-5xl">CAMAGRU</h2></a>
+      <a href="/user/camera.html" class="flex-none"
+        ><img src="../public/camera-icon.svg" class="w-10"
+      /></a>
+      <a href="/user/photos.html" class="flex-none"
+        ><img src="../public/folder-icon.svg" class="w-10"
+      /></a>
+      <a href="/user/likes.html" class="flex-none"
+        ><img src="../public/heart-icon.svg" class="w-10"
+      /></a>
+      <a href="/user/settings.html" class="flex-none"
+        ><img src="../public/gear-icon.svg" class="w-10"
+      /></a>
+      <a href="/auth/logout" class="flex-none"
+        ><img src="../public/logout-icon.svg" class="w-10"
+      /></a>
+    </header>
+    <main class="flex-1 mx-80 flex">
+      <video hidden></video>
+      <div class="w-full flex flex-col items-center">
+        <canvas class="photo w-1/2"></canvas>
+        <button
+          id="take-photo-btn"
+          class="bg-black hover:bg-gray-500 text-white text-2xl py-3 px-6 rounded-full"
+        >
+          TAKE PHOTO
+        </button>
+      </div>
+      <aside class="absolute right-0 w-60">
+        <div class="strip h-1/2 overflow-hidden"></div>
+      </aside>
+      <audio class="snap" src="../public/snap.mp3" hidden></audio>
+    </main>
+    <footer class="h-32 w-full px-80 flex flex-row-reverse items-center text-xl bg-white">
+      YOPARK, 42 SEOUL, 2023
+    </footer>
+  </body>
+</html>
