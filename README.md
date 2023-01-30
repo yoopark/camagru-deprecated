@@ -18,7 +18,7 @@ $ docker-compose up --build
 tailwind.config.js 파일이 있는 /app에 들어가서
 
 ```shell
-$ npx tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/tailwind-output.css --watch
+$ npx tailwindcss -i ./src/styles/global.css -o ./src/styles/tailwind.css --watch
 ```
 
 ## Progress
